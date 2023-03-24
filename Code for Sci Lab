@@ -1,0 +1,38 @@
+clc()
+
+// Define parameters
+// suspension system refers the combined effects of both the suspensions loaded in parallel
+m1 = 75; // [kg] mass of the person and the seat combined 
+m2 = 0.2; // [kg] mass of the plate of the base of suspension system
+k1 = 7500; // [N/m] spring constant for the springs in suspension system
+k2 = 150000; // [N/m] spring constant for the tyre
+c1 = 1000; // [Ns/m] damping coefficient for the suspension system 
+c2 = 1; // [Ns/m] damping coefficient for the tyre
+t=0:0.001:7; // [s] testing for a 7 second time period
+u=0.1; // [m] z3 displacement for the tyre
+
+// Define transfer function
+s=poly(0,'s');
+// Transfer function for z3 as output
+num1=c1*c2*s^2+(k1*c2+k2*c1)*s+k1*k2;
+den1=m1*m2*s^4+(m1*c1+m1*c2+m2*c1)*s^3+(m1*k1+m1*k2+k1*m2+c1*c2)*s^2+(c1*k2+k1*c2)*s+k1*k2;
+Hs1=[num1/den1];
+sys1=syslin('c',Hs1);
+// Transfer function for z2 as output
+num2=m1*c2*s^3+(c1*c2+m1*k2)*s^2+(k1*c2+c1*k2)*s+k1*k2;
+den2=m1*m2*s^4+(m1*c1+m1*c2+m2*c1)*s^3+(m1*k1+m1*k2+k1*m2)*s^2+(c1*c2+c1*k2+k1*c2)*s+k1*k2;
+Hs2=[num2/den2];
+sys2=syslin('c',Hs2);
+
+// Run step response
+z3 = u*csim('step',t,sys1);
+z2 = u*csim('step',t,sys2);
+figure(1)
+plot(t,z3,'b'), xgrid()
+plot(t,z2,'r')
+hf=gcf();
+hf.background = -2;
+title("testing for displacements with chosen suspension","Color",'b')
+ylabel('Displacement [m]')
+xlabel('Time [s]')
+legend('$\Large{z_{3}(t)}$','$\Large{z_{2}(t)}$',1)
