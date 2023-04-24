@@ -1,0 +1,13 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"H1","HC05","HC05",89.000000,-65.200000,180.000000,top
+"J1","Conn_01x02_Pin","PinHeader_1x02_P2.54mm_Vertical",81.200000,-68.200000,180.000000,top
+"J2","Conn_01x02_Pin","PinHeader_1x02_P2.54mm_Vertical",89.200000,-85.000000,0.000000,top
+"J3","Conn_01x02_Pin","PinHeader_1x02_P2.54mm_Vertical",94.400000,-72.460000,0.000000,top
+"J4","Conn_01x02_Pin","PinHeader_1x02_P2.54mm_Vertical",99.000000,-74.800000,180.000000,top
+"J5","Conn_01x02_Pin","PinHeader_1x02_P2.54mm_Vertical",103.800000,-72.460000,0.000000,top
+"J6","Conn_01x02_Pin","PinHeader_1x02_P2.54mm_Vertical",81.000000,-60.340000,180.000000,top
+"J7","Conn_01x02_Pin","PinHeader_1x02_P2.54mm_Vertical",81.200000,-73.260000,0.000000,top
+"J8","Conn_01x01_Pin","PinHeader_1x01_P2.54mm_Vertical",81.400000,-80.600000,0.000000,top
+"R3","10kΩ","R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",89.200000,-71.640000,-90.000000,top
+"R4","10kΩ","R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",104.200000,-85.600000,180.000000,top
+"R5","10kΩ","R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",94.200000,-81.600000,0.000000,top

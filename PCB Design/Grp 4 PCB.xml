@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Student\Desktop\Grp 4 PCB\Grp 4 PCB.kicad_sch</source>
+    <date>14/4/2023 3:01:34 AM</date>
+    <tool>Eeschema 7.0.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Grp 4 PCB.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>4.7µF</value>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Grp 4 PCB.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76702045-51b3-4eef-84cc-038d8d284826</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100µF</value>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Grp 4 PCB.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>181ae20e-0604-4d1d-bbf4-62c2ab4500b9</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1F</value>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Grp 4 PCB.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05ded498-7281-4d18-8f36-7eacd9530399</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>2758</value>
+      <footprint>SOL320P540X170-4N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Adafruit Industries</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.7 mm</field>
+        <field name="PARTREV">01</field>
+        <field name="STANDARD">IPC 7351B</field>
+      </fields>
+      <libsource lib="2758" part="2758" description=""/>
+      <property name="PARTREV" value="01"/>
+      <property name="MANUFACTURER" value="Adafruit Industries"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.7 mm"/>
+      <property name="STANDARD" value="IPC 7351B"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Grp 4 PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>33327764-2a21-495c-aafa-e662a45750c7</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N4001</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4001" description="50V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Grp 4 PCB.kicad_sch"/>
+      <property name="ki_description" value="50V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1f74a07-ebd9-4bcf-b7da-d2a618e5fcb7</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>HC05</value>
+      <footprint>HC05</footprint>
+      <libsource lib="HC05" part="HC05" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Grp 4 PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d2cc06a-5971-4147-a99d-007c43cdef71</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>Motor_Servo</value>
+      <datasheet>http://forums.parallax.com/uploads/attachments/46831/74481.png</datasheet>
+      <libsource lib="Motor" part="Motor_Servo" description="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Grp 4 PCB.kicad_sch"/>
+      <property name="ki_description" value="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="ki_keywords" value="Servo Motor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5879defa-92e9-44f4-8436-281bcdbc59bc</tstamps>
+    </comp>
+    <comp ref="M2">
+      <value>Stepper_Motor_bipolar</value>
+      <datasheet>http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0</datasheet>
+      <libsource lib="Motor" part="Stepper_Motor_bipolar" description="4-wire bipolar stepper motor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Grp 4 PCB.kicad_sch"/>
+      <property name="ki_description" value="4-wire bipolar stepper motor"/>
+      <property name="ki_keywords" value="bipolar stepper motor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c6b94b91-8397-45e2-b34d-7b07e7381774</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10kΩ</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Grp 4 PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59128c5d-bef5-493b-bbf9-720ff64f610e</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10kΩ</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Grp 4 PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7417797d-3677-4510-a4e2-a184d228c6db</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>R_Variable</value>
+      <libsource lib="Device" part="R_Variable" description="Variable resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Grp 4 PCB.kicad_sch"/>
+      <property name="ki_description" value="Variable resistor"/>
+      <property name="ki_keywords" value="R res resistor variable potentiometer rheostat"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36acea6b-323a-4ec1-96f0-dc91fb072e53</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>R_Variable</value>
+      <libsource lib="Device" part="R_Variable" description="Variable resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Grp 4 PCB.kicad_sch"/>
+      <property name="ki_description" value="Variable resistor"/>
+      <property name="ki_keywords" value="R res resistor variable potentiometer rheostat"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>caaf1c0a-68fd-4cb9-a43d-f6c6d5539663</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1kΩ</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Grp 4 PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8213529c-3c75-477b-8093-ee4e7ea516c0</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10kΩ</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Grp 4 PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df3a47e4-3764-495e-98ed-013ae8039834</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>6.6Ω</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Grp 4 PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dfedb5db-b88c-4a16-9c78-c61ad81efd03</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>6.6Ω</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Grp 4 PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab20391a-318a-41e4-bdcf-d30c0d2cdb89</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Grp 4 PCB.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df9b4eb3-141b-49e1-9ec8-16f0416418a0</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Grp 4 PCB.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5a24b68-d9bb-4f1b-98c4-7c0f01471922</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ABX00053</value>
+      <footprint>MODULE_ABX00053</footprint>
+      <fields>
+        <field name="MANUFACTURER">Arduino</field>
+        <field name="PARTREV">Rev. 01 - 14/05/2021</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="ABX00053" part="ABX00053" description=""/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MANUFACTURER" value="Arduino"/>
+      <property name="PARTREV" value="Rev. 01 - 14/05/2021"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Grp 4 PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0aa85727-54ae-4830-aaae-3108051b0357</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>A4988_STEPPER_MOTOR_DRIVER_CARRIER_BLACK</value>
+      <footprint>MODULE_A4988_STEPPER_MOTOR_DRIVER_CARRIER_BLACK</footprint>
+      <fields>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="DESCRIPTION">Stepper Motor Driver</field>
+        <field name="MF">Pololu</field>
+        <field name="MP">A4988 STEPPER MOTOR DRIVER CARRIER</field>
+        <field name="PACKAGE">None</field>
+        <field name="PRICE">None</field>
+      </fields>
+      <libsource lib="A4988_STEPPER_MOTOR_DRIVER_CARRIER_BLACK" part="A4988_STEPPER_MOTOR_DRIVER_CARRIER_BLACK" description=""/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="PACKAGE" value="None"/>
+      <property name="MP" value="A4988 STEPPER MOTOR DRIVER CARRIER"/>
+      <property name="DESCRIPTION" value="Stepper Motor Driver"/>
+      <property name="MF" value="Pololu"/>
+      <property name="PRICE" value="None"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Grp 4 PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17429255-2fea-4955-95c8-bd0728a6a5c5</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>MPU-9250</value>
+      <footprint>Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm</footprint>
+      <datasheet>https://invensense.tdk.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf</datasheet>
+      <libsource lib="Sensor_Motion" part="MPU-9250" description="InvenSense 9-Axis Motion Sensor, Accelerometer, Gyroscope, Compass, I2C/SPI"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Grp 4 PCB.kicad_sch"/>
+      <property name="ki_description" value="InvenSense 9-Axis Motion Sensor, Accelerometer, Gyroscope, Compass, I2C/SPI"/>
+      <property name="ki_keywords" value="mems magnetometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5cd8df0f-dec5-4e48-bfce-2c97b9925e81</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>HX711</value>
+      <footprint>Package_SO:SOP-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>https://cdn.sparkfun.com/datasheets/Sensors/ForceFlex/hx711_english.pdf</datasheet>
+      <libsource lib="Analog_ADC" part="HX711" description="24-Bit Analog-to-Digital Converter (ADC) for Weigh Scales"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Grp 4 PCB.kicad_sch"/>
+      <property name="ki_description" value="24-Bit Analog-to-Digital Converter (ADC) for Weigh Scales"/>
+      <property name="ki_keywords" value="adc load cell 24-bits analog weigh"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>973f7187-67bd-4d93-a2cf-b48a7d3bdb22</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="2758" part="2758">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">2758</field>
+        <field name="Footprint">SOL320P540X170-4N</field>
+        <field name="PARTREV">01</field>
+        <field name="MANUFACTURER">Adafruit Industries</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.7 mm</field>
+        <field name="STANDARD">IPC 7351B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="DIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="A4988_STEPPER_MOTOR_DRIVER_CARRIER_BLACK" part="A4988_STEPPER_MOTOR_DRIVER_CARRIER_BLACK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">A4988_STEPPER_MOTOR_DRIVER_CARRIER_BLACK</field>
+        <field name="Footprint">MODULE_A4988_STEPPER_MOTOR_DRIVER_CARRIER_BLACK</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="PACKAGE">None</field>
+        <field name="MP">A4988 STEPPER MOTOR DRIVER CARRIER</field>
+        <field name="DESCRIPTION">Stepper Motor Driver</field>
+        <field name="MF">Pololu</field>
+        <field name="PRICE">None</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{ENABLE}" type="input"/>
+        <pin num="2" name="MS1" type="input"/>
+        <pin num="3" name="MS2" type="input"/>
+        <pin num="4" name="MS3" type="input"/>
+        <pin num="5" name="~{RESET}" type="input"/>
+        <pin num="6" name="~{SLEEP}" type="input"/>
+        <pin num="7" name="STEP" type="input"/>
+        <pin num="8" name="DIR" type="input"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="VDD" type="power_in"/>
+        <pin num="11" name="1B" type="output"/>
+        <pin num="12" name="1A" type="output"/>
+        <pin num="13" name="2A" type="output"/>
+        <pin num="14" name="2B" type="output"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="VMOT" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ABX00053" part="ABX00053">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ABX00053</field>
+        <field name="Footprint">MODULE_ABX00053</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MANUFACTURER">Arduino</field>
+        <field name="PARTREV">Rev. 01 - 14/05/2021</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D13/GPIO6" type="bidirectional"/>
+        <pin num="2" name="+3V3" type="power_in"/>
+        <pin num="3" name="AREF" type="bidirectional"/>
+        <pin num="4" name="A0/DAC0/GPIO26" type="bidirectional"/>
+        <pin num="5" name="A1/GPIO27" type="bidirectional"/>
+        <pin num="6" name="A2/GPIO28" type="bidirectional"/>
+        <pin num="7" name="A3/GPIO29" type="bidirectional"/>
+        <pin num="8" name="A4/GPIO12" type="bidirectional"/>
+        <pin num="9" name="A5/GPIO13" type="bidirectional"/>
+        <pin num="10" name="A6" type="bidirectional"/>
+        <pin num="11" name="A7" type="bidirectional"/>
+        <pin num="12" name="+5V" type="power_in"/>
+        <pin num="13" name="QSPI_~{RESET}" type="input"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="VIN" type="power_in"/>
+        <pin num="16" name="TX" type="bidirectional"/>
+        <pin num="17" name="RX" type="bidirectional"/>
+        <pin num="18" name="~{RESET}" type="input"/>
+        <pin num="19" name="GND" type="power_in"/>
+        <pin num="20" name="D2/GPIO25" type="bidirectional"/>
+        <pin num="21" name="D3/GPIO15" type="bidirectional"/>
+        <pin num="22" name="D4/GPIO26" type="bidirectional"/>
+        <pin num="23" name="D5/GPIO17" type="bidirectional"/>
+        <pin num="24" name="D6/GPIO18" type="bidirectional"/>
+        <pin num="25" name="D7/GPIO19" type="bidirectional"/>
+        <pin num="26" name="D8/GPIO20" type="bidirectional"/>
+        <pin num="27" name="D9/GPIO21" type="bidirectional"/>
+        <pin num="28" name="D10/GPIO5" type="bidirectional"/>
+        <pin num="29" name="D11/GPIO7/COPI" type="bidirectional"/>
+        <pin num="30" name="D12/GPIO4/CIPO" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Analog_ADC" part="HX711">
+      <description>24-Bit Analog-to-Digital Converter (ADC) for Weigh Scales</description>
+      <docs>https://cdn.sparkfun.com/datasheets/Sensors/ForceFlex/hx711_english.pdf</docs>
+      <footprints>
+        <fp>SOP*3.9x9.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HX711</field>
+        <field name="Footprint">Package_SO:SOP-16_3.9x9.9mm_P1.27mm</field>
+        <field name="Datasheet">https://cdn.sparkfun.com/datasheets/Sensors/ForceFlex/hx711_english.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSUP" type="power_in"/>
+        <pin num="2" name="BASE" type="passive"/>
+        <pin num="3" name="AVDD" type="power_in"/>
+        <pin num="4" name="VFB" type="input"/>
+        <pin num="5" name="AGND" type="power_in"/>
+        <pin num="6" name="VBG" type="passive"/>
+        <pin num="7" name="INA-" type="input"/>
+        <pin num="8" name="INA+" type="input"/>
+        <pin num="9" name="INB-" type="input"/>
+        <pin num="10" name="INB+" type="input"/>
+        <pin num="11" name="PD_SCK" type="input"/>
+        <pin num="12" name="DOUT" type="output"/>
+        <pin num="13" name="XO" type="passive"/>
+        <pin num="14" name="XI" type="passive"/>
+        <pin num="15" name="RATE" type="input"/>
+        <pin num="16" name="DVDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Variable">
+      <description>Variable resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Variable</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4001">
+      <description>50V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4001</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HC05" part="HC05">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">HC05</field>
+        <field name="Footprint">HC05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="bidirectional"/>
+        <pin num="2" name="GND" type="bidirectional"/>
+        <pin num="3" name="TXD" type="bidirectional"/>
+        <pin num="4" name="RXD" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motor" part="Motor_Servo">
+      <description>Servo Motor (Futaba, HiTec, JR connector)</description>
+      <docs>http://forums.parallax.com/uploads/attachments/46831/74481.png</docs>
+      <footprints>
+        <fp>PinHeader*P2.54mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Motor_Servo</field>
+        <field name="Datasheet">http://forums.parallax.com/uploads/attachments/46831/74481.png</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PWM" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
+        <pin num="3" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motor" part="Stepper_Motor_bipolar">
+      <description>4-wire bipolar stepper motor</description>
+      <docs>http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0</docs>
+      <footprints>
+        <fp>PinHeader*P2.54mm*Vertical*</fp>
+        <fp>TerminalBlock*</fp>
+        <fp>Motor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Stepper_Motor_bipolar</field>
+        <field name="Datasheet">http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Motion" part="MPU-9250">
+      <description>InvenSense 9-Axis Motion Sensor, Accelerometer, Gyroscope, Compass, I2C/SPI</description>
+      <docs>https://invensense.tdk.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf</docs>
+      <footprints>
+        <fp>*QFN?24*3x3mm*P0.4mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MPU-9250</field>
+        <field name="Footprint">Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm</field>
+        <field name="Datasheet">https://invensense.tdk.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RESV_VDDIO" type="input"/>
+        <pin num="7" name="AUX_CL" type="output"/>
+        <pin num="8" name="VDDIO" type="power_in"/>
+        <pin num="9" name="AD0/MISO" type="bidirectional"/>
+        <pin num="10" name="REGOUT" type="passive"/>
+        <pin num="11" name="FSYNC" type="input"/>
+        <pin num="12" name="INT" type="output"/>
+        <pin num="13" name="VDD" type="power_in"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="20" name="RESV_GND" type="power_in"/>
+        <pin num="21" name="AUX_DA" type="bidirectional"/>
+        <pin num="22" name="~{CS}" type="input"/>
+        <pin num="23" name="SCL/SCLK" type="input"/>
+        <pin num="24" name="SDA/MOSI" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="2758">
+      <uri>C:\Users\Student\Desktop\Grp 4 PCB/Component/2758/2758.kicad_sym</uri>
+    </library>
+    <library logical="A4988_STEPPER_MOTOR_DRIVER_CARRIER_BLACK">
+      <uri>C:\Users\Student\Desktop\Grp 4 PCB/Component/A4988_STEPPER_MOTOR_DRIVER_CARRIER_BLACK/A4988_STEPPER_MOTOR_DRIVER_CARRIER_BLACK.kicad_sym</uri>
+    </library>
+    <library logical="ABX00053">
+      <uri>C:\Users\Student\Desktop\Grp 4 PCB/Component/ABX00053/ABX00053.kicad_sym</uri>
+    </library>
+    <library logical="Analog_ADC">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Analog_ADC.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="HC05">
+      <uri>C:\Users\Student\Desktop\Grp 4 PCB/Component/HC05/HC05.kicad_sym</uri>
+    </library>
+    <library logical="Motor">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Motor.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Motion">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Sensor_Motion.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="VCC" pintype="bidirectional"/>
+      <node ref="M1" pin="2" pinfunction="+" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="13" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="VSUP" pintype="power_in"/>
+    </net>
+    <net code="2" name="+12V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="VMOT" pintype="power_in"/>
+    </net>
+    <net code="3" name="Earth">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="D1" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="H1" pin="2" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="M1" pin="3" pinfunction="-" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="19" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="15" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="9" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="18" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="5" pinfunction="AGND" pintype="power_in"/>
+    </net>
+    <net code="4" name="Net-(D1-DIN)">
+      <node ref="D1" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(D2-K)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="+5V" pintype="power_in"/>
+    </net>
+    <net code="6" name="Net-(H1-RXD)">
+      <node ref="H1" pin="4" pinfunction="RXD" pintype="bidirectional"/>
+      <node ref="U1" pin="16" pinfunction="TX" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="Net-(H1-TXD)">
+      <node ref="H1" pin="3" pinfunction="TXD" pintype="bidirectional"/>
+      <node ref="U1" pin="17" pinfunction="RX" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="Net-(M1-PWM)">
+      <node ref="M1" pin="1" pinfunction="PWM" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="D9/GPIO21" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="Net-(M2--)">
+      <node ref="M2" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="1A" pintype="output"/>
+    </net>
+    <net code="10" name="Net-(U1-A0{slash}DAC0{slash}GPIO26)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="A0/DAC0/GPIO26" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="Net-(U1-A1{slash}GPIO27)">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="A1/GPIO27" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="Net-(U1-A4{slash}GPIO12)">
+      <node ref="U1" pin="8" pinfunction="A4/GPIO12" pintype="bidirectional"/>
+      <node ref="U3" pin="24" pinfunction="SDA/MOSI" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="Net-(U1-A5{slash}GPIO13)">
+      <node ref="U1" pin="9" pinfunction="A5/GPIO13" pintype="bidirectional"/>
+      <node ref="U3" pin="23" pinfunction="SCL/SCLK" pintype="input"/>
+    </net>
+    <net code="14" name="Net-(U1-D3{slash}GPIO15)">
+      <node ref="U1" pin="21" pinfunction="D3/GPIO15" pintype="bidirectional"/>
+      <node ref="U4" pin="12" pinfunction="DOUT" pintype="output"/>
+    </net>
+    <net code="15" name="Net-(U1-D4{slash}GPIO26)">
+      <node ref="U1" pin="22" pinfunction="D4/GPIO26" pintype="bidirectional"/>
+      <node ref="U4" pin="11" pinfunction="PD_SCK" pintype="input"/>
+    </net>
+    <net code="16" name="Net-(U1-D5{slash}GPIO17)">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="D5/GPIO17" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="Net-(U1-D6{slash}GPIO18)">
+      <node ref="U1" pin="24" pinfunction="D6/GPIO18" pintype="bidirectional"/>
+      <node ref="U2" pin="1" pinfunction="~{ENABLE}" pintype="input"/>
+    </net>
+    <net code="18" name="Net-(U1-D7{slash}GPIO19)">
+      <node ref="U1" pin="25" pinfunction="D7/GPIO19" pintype="bidirectional"/>
+      <node ref="U2" pin="8" pinfunction="DIR" pintype="input"/>
+    </net>
+    <net code="19" name="Net-(U1-D8{slash}GPIO20)">
+      <node ref="U1" pin="26" pinfunction="D8/GPIO20" pintype="bidirectional"/>
+      <node ref="U2" pin="7" pinfunction="STEP" pintype="input"/>
+    </net>
+    <net code="20" name="Net-(U1-D11{slash}GPIO7{slash}COPI)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="D11/GPIO7/COPI" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="Net-(U1-D12{slash}GPIO4{slash}CIPO)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="D12/GPIO4/CIPO" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="Net-(U2-1B)">
+      <node ref="M2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="1B" pintype="output"/>
+    </net>
+    <net code="23" name="Net-(U2-2A)">
+      <node ref="M2" pin="3" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="2A" pintype="output"/>
+    </net>
+    <net code="24" name="Net-(U2-2B)">
+      <node ref="M2" pin="4" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="2B" pintype="output"/>
+    </net>
+    <net code="25" name="unconnected-(D1-DOUT-Pad2)">
+      <node ref="D1" pin="2" pinfunction="DOUT" pintype="output"/>
+    </net>
+    <net code="26" name="unconnected-(U1-+3V3-Pad2)">
+      <node ref="U1" pin="2" pinfunction="+3V3" pintype="power_in"/>
+    </net>
+    <net code="27" name="unconnected-(U1-A2{slash}GPIO28-Pad6)">
+      <node ref="U1" pin="6" pinfunction="A2/GPIO28" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="unconnected-(U1-A3{slash}GPIO29-Pad7)">
+      <node ref="U1" pin="7" pinfunction="A3/GPIO29" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="unconnected-(U1-A6-Pad10)">
+      <node ref="U1" pin="10" pinfunction="A6" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="unconnected-(U1-A7-Pad11)">
+      <node ref="U1" pin="11" pinfunction="A7" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="unconnected-(U1-AREF-Pad3)">
+      <node ref="U1" pin="3" pinfunction="AREF" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="unconnected-(U1-D2{slash}GPIO25-Pad20)">
+      <node ref="U1" pin="20" pinfunction="D2/GPIO25" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="unconnected-(U1-D10{slash}GPIO5-Pad28)">
+      <node ref="U1" pin="28" pinfunction="D10/GPIO5" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="unconnected-(U1-D13{slash}GPIO6-Pad1)">
+      <node ref="U1" pin="1" pinfunction="D13/GPIO6" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="unconnected-(U1-QSPI_~{RESET}-Pad13)">
+      <node ref="U1" pin="13" pinfunction="QSPI_~{RESET}" pintype="input"/>
+    </net>
+    <net code="36" name="unconnected-(U1-VIN-Pad15)">
+      <node ref="U1" pin="15" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="37" name="unconnected-(U1-~{RESET}-Pad18)">
+      <node ref="U1" pin="18" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="38" name="unconnected-(U2-MS1-Pad2)">
+      <node ref="U2" pin="2" pinfunction="MS1" pintype="input"/>
+    </net>
+    <net code="39" name="unconnected-(U2-MS2-Pad3)">
+      <node ref="U2" pin="3" pinfunction="MS2" pintype="input"/>
+    </net>
+    <net code="40" name="unconnected-(U2-MS3-Pad4)">
+      <node ref="U2" pin="4" pinfunction="MS3" pintype="input"/>
+    </net>
+    <net code="41" name="unconnected-(U2-~{RESET}-Pad5)">
+      <node ref="U2" pin="5" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="42" name="unconnected-(U2-~{SLEEP}-Pad6)">
+      <node ref="U2" pin="6" pinfunction="~{SLEEP}" pintype="input"/>
+    </net>
+    <net code="43" name="unconnected-(U3-AD0{slash}MISO-Pad9)">
+      <node ref="U3" pin="9" pinfunction="AD0/MISO" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="unconnected-(U3-AUX_CL-Pad7)">
+      <node ref="U3" pin="7" pinfunction="AUX_CL" pintype="output"/>
+    </net>
+    <net code="45" name="unconnected-(U3-AUX_DA-Pad21)">
+      <node ref="U3" pin="21" pinfunction="AUX_DA" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="unconnected-(U3-FSYNC-Pad11)">
+      <node ref="U3" pin="11" pinfunction="FSYNC" pintype="input"/>
+    </net>
+    <net code="47" name="unconnected-(U3-INT-Pad12)">
+      <node ref="U3" pin="12" pinfunction="INT" pintype="output"/>
+    </net>
+    <net code="48" name="unconnected-(U3-REGOUT-Pad10)">
+      <node ref="U3" pin="10" pinfunction="REGOUT" pintype="passive"/>
+    </net>
+    <net code="49" name="unconnected-(U3-RESV_GND-Pad20)">
+      <node ref="U3" pin="20" pinfunction="RESV_GND" pintype="power_in"/>
+    </net>
+    <net code="50" name="unconnected-(U3-RESV_VDDIO-Pad1)">
+      <node ref="U3" pin="1" pinfunction="RESV_VDDIO" pintype="input"/>
+    </net>
+    <net code="51" name="unconnected-(U3-VDDIO-Pad8)">
+      <node ref="U3" pin="8" pinfunction="VDDIO" pintype="power_in"/>
+    </net>
+    <net code="52" name="unconnected-(U3-~{CS}-Pad22)">
+      <node ref="U3" pin="22" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="53" name="unconnected-(U4-AVDD-Pad3)">
+      <node ref="U4" pin="3" pinfunction="AVDD" pintype="power_in"/>
+    </net>
+    <net code="54" name="unconnected-(U4-BASE-Pad2)">
+      <node ref="U4" pin="2" pinfunction="BASE" pintype="passive"/>
+    </net>
+    <net code="55" name="unconnected-(U4-DVDD-Pad16)">
+      <node ref="U4" pin="16" pinfunction="DVDD" pintype="power_in"/>
+    </net>
+    <net code="56" name="unconnected-(U4-INA+-Pad8)">
+      <node ref="U4" pin="8" pinfunction="INA+" pintype="input"/>
+    </net>
+    <net code="57" name="unconnected-(U4-INA--Pad7)">
+      <node ref="U4" pin="7" pinfunction="INA-" pintype="input"/>
+    </net>
+    <net code="58" name="unconnected-(U4-INB+-Pad10)">
+      <node ref="U4" pin="10" pinfunction="INB+" pintype="input"/>
+    </net>
+    <net code="59" name="unconnected-(U4-INB--Pad9)">
+      <node ref="U4" pin="9" pinfunction="INB-" pintype="input"/>
+    </net>
+    <net code="60" name="unconnected-(U4-RATE-Pad15)">
+      <node ref="U4" pin="15" pinfunction="RATE" pintype="input"/>
+    </net>
+    <net code="61" name="unconnected-(U4-VBG-Pad6)">
+      <node ref="U4" pin="6" pinfunction="VBG" pintype="passive"/>
+    </net>
+    <net code="62" name="unconnected-(U4-VFB-Pad4)">
+      <node ref="U4" pin="4" pinfunction="VFB" pintype="input"/>
+    </net>
+    <net code="63" name="unconnected-(U4-XI-Pad14)">
+      <node ref="U4" pin="14" pinfunction="XI" pintype="passive"/>
+    </net>
+    <net code="64" name="unconnected-(U4-XO-Pad13)">
+      <node ref="U4" pin="13" pinfunction="XO" pintype="passive"/>
+    </net>
+  </nets>
+</export>

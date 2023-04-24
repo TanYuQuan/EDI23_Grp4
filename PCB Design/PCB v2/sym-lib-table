@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "2758")(type "KiCad")(uri "C:/Users/Student/Desktop/Grp 4 PCB/Component/2758/2758.kicad_sym")(options "")(descr ""))
+  (lib (name "A4988_STEPPER_MOTOR_DRIVER_CARRIER_BLACK")(type "KiCad")(uri "C:/Users/Student/Desktop/Grp 4 PCB/Component/A4988_STEPPER_MOTOR_DRIVER_CARRIER_BLACK/A4988_STEPPER_MOTOR_DRIVER_CARRIER_BLACK.kicad_sym")(options "")(descr ""))
+  (lib (name "ABX00053")(type "KiCad")(uri "C:/Users/Student/Desktop/Grp 4 PCB/Component/ABX00053/ABX00053.kicad_sym")(options "")(descr ""))
+  (lib (name "HC05")(type "KiCad")(uri "C:/Users/Student/Desktop/Grp 4 PCB/Component/HC05/HC05.kicad_sym")(options "")(descr ""))
+  (lib (name "Supercapacitor")(type "KiCad")(uri "C:/Users/Student/Desktop/Grp 4 PCB/Component/Supercapacitor/Supercapacitor.kicad_sym")(options "")(descr ""))
+)

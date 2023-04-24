@@ -1,0 +1,17 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"C1","1F","1F Capacitor",151.600000,-84.000000,0.000000,top
+"C2","4.7µF","CP_Radial_D8.0mm_P5.00mm",151.402651,-34.800000,180.000000,top
+"D1","1N4001","D_DO-41_SOD81_P10.16mm_Horizontal",107.200000,-69.200000,-90.000000,top
+"J1","Screw_Terminal_01x03","TerminalBlock_bornier-3_P5.08mm",127.080000,-92.600000,180.000000,top
+"J7","Conn_01x04_Socket","PinSocket_1x04_P2.54mm_Vertical",160.975000,-54.400000,180.000000,top
+"J9","Conn_01x02_Socket","PinSocket_1x02_P2.54mm_Vertical",112.000000,-54.200000,0.000000,top
+"J11","Conn_01x02_Socket","PinSocket_1x02_P2.54mm_Vertical",161.425000,-68.150000,0.000000,top
+"J13","Conn_01x01_Socket","PinSocket_1x01_P2.54mm_Vertical",161.400000,-63.000000,0.000000,top
+"J14","Conn_01x01_Socket","PinSocket_1x01_P2.54mm_Vertical",141.600000,-32.800000,0.000000,top
+"J15","Conn_01x02_Socket","PinSocket_1x02_P2.54mm_Vertical",114.175000,-80.850000,180.000000,top
+"J16","Conn_01x01_Socket","PinSocket_1x01_P2.54mm_Vertical",114.200000,-33.200000,0.000000,top
+"J17","Conn_01x02_Socket","PinSocket_1x02_P2.54mm_Vertical",120.600000,-33.200000,-90.000000,top
+"R1","6Ω","R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",113.800000,-39.240000,-90.000000,top
+"R2","6Ω","R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",114.000000,-64.120000,-90.000000,top
+"U1","ABX00053","MODULE_ABX00053",126.870000,-59.200000,-90.000000,top
+"U2","A4988_STEPPER_MOTOR_DRIVER_CARRIER_BLACK","MODULE_A4988_STEPPER_MOTOR_DRIVER_CARRIER_BLACK",150.750000,-50.450000,0.000000,top
